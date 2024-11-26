@@ -1,0 +1,32 @@
+name: untitled2
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0" # Ensure compatibility with your Flutter and Dart version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^5.1.0 # Ensure proper indentation
+
+  # Cupertino Icons for iOS-style icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # Ensures linting practices (adjust to the desired version)
+
+flutter:
+  uses-material-design: true
+
+  # Add assets if required (e.g., images or other resources)
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
